@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie app</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand">Movie App</a>
+          <form class="d-flex justify-content-around">
+            <div class="">
+              <input
+                type="text"
+                id="seaching-input"
+                placeholder="Searching by name"
+                class="my-2 m-auto w-75 form-control"
+              />
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <div class="container my-2">
+      <div class="row">
+        <div class="col-10">
+          <div class="row row-cols-1 row-cols-md-3 g-4 id" id="showData"></div>
+        </div>
+        <div class="col-2 bg-light">
+          <div class="my-2 d-flex flex-column" id="tags">
+            <div class="tag btn btn-info m-2">Action</div>
+            <div class="tag btn btn-info m-2">Darama</div>
+            <div class="tag btn btn-info m-2">Comedy</div>
+            <div class="tag btn btn-info m-2">Adventure</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-light text-center text-dark">
+      <h4>
+        Copyright <span>2022</span> © <span>By Mohamed Tarek</span> . All Rights
+        Reserved
+      </h4>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
